@@ -1,0 +1,12 @@
+How to Fix Segmentation Faults?
+We can fix segmentation faults by being careful about the causes mentioned:
+
+
+Avoid modifying string literals.
+Being careful when using pointers as they are one of the most common causes.
+Considering the buffer and stack size before storing the data to avoid buffer or stack overflow.
+Checking for bounds before accessing array elements.
+Use scanf() and printf() carefully to avoid incorrect format specifiers or buffer overflow.
+
+
+Overall, the cause of the segmentation fault is accessing the memory that does not belong to you in that space. As long as we avoid doing that, we can avoid the segmentation fault. If you cannot find the source of the error even after doing it, it is recommended to use a debugger as it directly leads to the point of error in the program.

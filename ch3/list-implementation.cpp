@@ -10,6 +10,7 @@ using std::list;
 using std::vector;
 
 // 从第一个元素开始，间隔删除
+
 template <typename Container>
 void removeEveryOtherItem(Container& lst)
 {
